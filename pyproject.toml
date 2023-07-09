@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "socketify-app"
+version = "0.1.0"
+description = ""
+authors = ["fhassis <fhassis2@gmail.com>"]
+readme = "README.md"
+packages = [{include = "socketify_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+socketify = "^0.0.23"
+jinja2 = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
